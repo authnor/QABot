@@ -6,12 +6,12 @@
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
 
 ## Steps to deploy the automated UI test
-1.	Install custom command cy-view to run tests on various viewport sizes
+1.	Install custom command **cy-view** to run tests on various viewport sizes<br>
 
-###Installation <br>
+  **Installation <br>
    $ npm i --save-dev cy-view
 
-2.	Under the folder cypress/support/ copy the file navigatepage.js
+2.	Under the folder **cypress/support/** copy the file **navigatepage.js**
 3.	Copy the following values in cypress.json file within env section: <br>
     "loginEmail": "robomail@yopmail.com",<br>
     "password": "123pass",  <br>
@@ -21,7 +21,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
     "invalidName": "Maria123",<br>
     "oldName": "Lucy"<br>
 
-Sample cypress.json would look like this (disregard the values inside db section and projectId)<br>
+Sample **cypress.json** would look like this (disregard the values inside db section and projectId)<br>
 {<br>
   "env": {<br>
     "db": {<br>
