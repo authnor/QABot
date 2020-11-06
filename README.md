@@ -12,7 +12,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 $ npm i --save-dev cy-view
 
 2.	Under the folder cypress/support/ copy the file navigatepage.js
-3.	Copy the following values in cypress.json file within env section<br>
+3.	Copy the following values in cypress.json file within env section: <br>
     "loginEmail": "robomail@yopmail.com",<br>
     "password": "123pass",  <br>
     "newName": "Maria",<br>
@@ -21,30 +21,30 @@ $ npm i --save-dev cy-view
     "invalidName": "Maria123",<br>
     "oldName": "Lucy"<br>
 
-Sample cypress.json would look like this (disregard the values inside db section and projectId)
-{
-  "env": {
-    "db": {
-      "userName": "dev",
-      "password": "Pa55word",
-      "server": "10.30.113.31",
-      "options": {
-        "database": "Test_PayVu",
-        "encrypt": false,
-        "rowCollectionOnRequestCompletion": true
-      }
-    },
-    "loginEmail": "robomail@yopmail.com",
-    "password": "123pass",  
-    "newName": "Maria",
-    "surname": "Marton",
-    "invalidPassword": "pass123",
-    "invalidName": "Maria123",
-    "oldName": "Lucy"
-  },
-  "projectId": "e34p3x"
-
-}
+Sample cypress.json would look like this (disregard the values inside db section and projectId)<br>
+{<br>
+  "env": {<br>
+    "db": {<br>
+      "userName": "dev",<br>
+      "password": "Pa55word",<br>
+      "server": "10.30.113.31",<br>
+      "options": {<br>
+        "database": "Test_PayVu",<br>
+        "encrypt": false,<br>
+        "rowCollectionOnRequestCompletion": true<br>
+      }<br>
+    },<br>
+    "loginEmail": "robomail@yopmail.com",<br>
+    "password": "123pass",<br> 
+    "newName": "Maria",<br>
+    "surname": "Marton",<br>
+    "invalidPassword": "pass123",<br>
+    "invalidName": "Maria123",<br>
+    "oldName": "Lucy"<br>
+  },<br>
+  "projectId": "e34p3x"<br>
+<br>
+}<br>
 
 4.	Copy the test file QAScenario.js into cypress/integration/ folder
 5.	To run the test, launch cypress:
