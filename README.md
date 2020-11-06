@@ -8,8 +8,8 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 ## Steps to deploy the automated UI test
 1.	Install custom command cy-view to run tests on various viewport sizes
 
-###Installation
-$ npm i --save-dev cy-view
+###Installation <br>
+   $ npm i --save-dev cy-view
 
 2.	Under the folder cypress/support/ copy the file navigatepage.js
 3.	Copy the following values in cypress.json file within env section: <br>
@@ -48,7 +48,7 @@ Sample cypress.json would look like this (disregard the values inside db section
 
 4.	Copy the test file QAScenario.js into cypress/integration/ folder
 5.	To run the test, launch cypress:
-     npx cypress open
+     **npx cypress open**
 6.	Click on the test case to run
 
 7.	I have also integrated this to the Cypress dashboard. I’ve created a project which shows the test run on different browsers (chrome, firefox and edge) in headless mode. Videos are also recorded for each test. The project dashboard is viewable (public) with the link below:
