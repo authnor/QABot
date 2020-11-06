@@ -46,7 +46,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 <br>
 }<br>
 
-4.	Copy the test file QAScenario.js into cypress/integration/ folder
+4.	Copy the test file **QAScenario.js** into cypress/integration/ folder
 5.	To run the test, launch cypress:
      **npx cypress open**
 6.	Click on the test case to run
