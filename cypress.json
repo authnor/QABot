@@ -1,0 +1,25 @@
+{
+    "ignoreTestFiles": "**/examples/**",
+    "env": {
+      "db": {
+        "userName": "dev",
+        "password": "Pa55word",
+        "server": "10.30.113.31",
+        "options": {
+          "database": "Test_PayVu",
+          "encrypt": false,
+          "rowCollectionOnRequestCompletion": true
+        }
+      },
+      "LoginEmail": "robomail@yopmail.com",
+      "Password": "123pass",  
+      "newName": "Maria",
+      "Surname": "Marton",
+      "InvalidPassword": "pass123",
+      "InvalidName": "Maria123",
+      "oldName": "Lucy"
+    },
+    "projectId": "e34p3x"
+  
+  }
+  
