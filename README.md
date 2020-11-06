@@ -12,14 +12,14 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-re
 $ npm i --save-dev cy-view
 
 2.	Under the folder cypress/support/ copy the file navigatepage.js
-3.	Copy the following values in cypress.json file within env section
-    "loginEmail": "robomail@yopmail.com",
-    "password": "123pass",  
-    "newName": "Maria",
-    "surname": "Marton",
-    "invalidPassword": "pass123",
-    "invalidName": "Maria123",
-    "oldName": "Lucy"
+3.	Copy the following values in cypress.json file within env section<br>
+    "loginEmail": "robomail@yopmail.com",<br>
+    "password": "123pass",  <br>
+    "newName": "Maria",<br>
+    "surname": "Marton",<br>
+    "invalidPassword": "pass123",<br>
+    "invalidName": "Maria123",<br>
+    "oldName": "Lucy"<br>
 
 Sample cypress.json would look like this (disregard the values inside db section and projectId)
 {
